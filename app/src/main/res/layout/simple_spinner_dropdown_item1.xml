@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iit.iitrc.rahil.cognizance_2016.LatoHeading xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:textColor="#e0e0e0"
+    android:textSize="14dp" />

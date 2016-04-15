@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@mipmap/common_background"
+    android:orientation="vertical">
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Android App Development Worskshop"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="#58595b"
+        android:text="An Application is a need of everyone but if it is cross Platformed, then it is more reliable and scalable. During this workshop you will develop webpages using HTML, CSS and Java Scripts and then use these webpages to develop cross platform mobile Applications.The workshop is of 2 days(16 hours) and fees is INR 1200 per participant. Participant will get a toolkit containing softwares and tools." />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Contact Details"
+        android:textStyle="bold" />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#58595b"
+        android:textSize="16sp"
+        android:text="Aayush Nigam: +91-9506954610" />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#58595b"
+        android:text="Saurabh Anand: +91-7060467047" />
+</LinearLayout>

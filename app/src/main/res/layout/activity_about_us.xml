@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="#f6f6f6">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/common_background"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="iit.iitrc.cognizance_2016.AboutUs">
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="#58595b"
+        android:textSize="16sp"
+        android:text="Always in the quest to maximise our impact, Cognizance organizes &quot;Expanse:Zonal Cognizance&quot; in dayspreceding the final test.Expanse which is a zonal Cognizance, aims at identifying the talentsspread over 10+cities of the nation, with events ranging in various fields." />
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Contact Details"
+        android:textStyle="bold" />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#58595b"
+        android:textSize="16sp"
+        android:text="Aayush Nigam: +91-9506954610" />
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#58595b"
+        android:textSize="16sp"
+        android:text="Saurabh Anand: +91-7060467047" />
+</LinearLayout>
+</FrameLayout>

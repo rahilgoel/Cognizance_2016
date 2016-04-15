@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#e0e0e0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <iit.iitrc.rahil.cognizance_2016.LatoHeading
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/panelistname"
+            android:text="Manohar parikar"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <iit.iitrc.rahil.cognizance_2016.LatoLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/panelistsub"
+            android:text="Raksha Mantri"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/panelistimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>

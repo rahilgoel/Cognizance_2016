@@ -1,0 +1,82 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/common_background"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="iit.iitrc.rahil.cognizance_2016.Zones$PlaceholderFragment">
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16sp"
+         />
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#58595b"
+        android:text="this is the description and the best way sdkjel
+        kdjeodjekldjelkdjelkdjedelkjdekljdelkjdelkjdsx,jnskjsnxdkjsdjksbdkjsdbjsk
+        bdsjdbskjdbkjsdskjdnskjdnskjdnskjdhs
+        elkjelkdjelkdjekldjelkdjelkdjelkdjekdelkdjeldedlkjedledjlkednkedhekjdhekdhe
+        kdhekdhekdhkedhkjehdkejdhkjedhekjhdkejdhekjdhekjdhekjdhekjdhekjdhekjdhekj
+        dhekjhdekjhdekjdh
+        to do that is the best the description and
+        the best way to do that is the best the description and the
+         best way to do that is the best the description and the best
+          way to do that is the best" />
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Contact Details"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_marginTop="8dp"
+    android:layout_gravity="center_horizontal">
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:id="@+id/contact1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginRight="5dp"
+        android:textColor="#58595b"
+        android:layout_gravity="center_horizontal"
+        android:text="sfwef"/>
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:id="@+id/contact2"
+        android:text="dfef"
+        android:textSize="14sp"
+        android:textColor="#58595b"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+

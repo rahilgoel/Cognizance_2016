@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/common_background"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <LinearLayout
+        android:id="@+id/homeimage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:weightSum="1"
+        android:gravity="bottom">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/sun"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right|center_vertical" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@mipmap/bus"
+            android:layout_gravity="bottom" />
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="106dp"
+            android:background="@mipmap/expanse_logo"
+            android:layout_gravity="center" />
+    </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <LinearLayout
+                android:id="@+id/expanseevents"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/events"
+                    android:layout_gravity="center"/>
+                <iit.iitrc.rahil.cognizance_2016.LatoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#58595b"
+                    android:text="Events"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000"
+                android:layout_gravity="bottom"
+                android:alpha=".06"/>
+            <LinearLayout
+                android:id="@+id/workshops"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/workshops"
+                    android:layout_gravity="center"/>
+                <iit.iitrc.rahil.cognizance_2016.LatoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#58595b"
+                    android:layout_marginTop="10dp"
+                    android:text="Workshops"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:alpha=".06"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+
+            <LinearLayout
+                android:id="@+id/zones"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/zone"
+                    android:layout_gravity="center"/>
+                <iit.iitrc.rahil.cognizance_2016.LatoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#58595b"
+                    android:text="Zones"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="140dp"
+                android:background="#000"
+                android:layout_gravity="bottom"
+                android:alpha=".06"/>
+            <LinearLayout
+                android:id="@+id/aboutus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/about_us"
+                    android:layout_gravity="center"/>
+                <iit.iitrc.rahil.cognizance_2016.LatoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#58595b"
+                    android:layout_marginTop="10dp"
+                    android:text="About us"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:minHeight="100dp"
+    android:orientation="vertical">
+
+
+    <iit.iitrc.rahil.cognizance_2016.LatoHeading
+        android:id="@+id/sponsorname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="10dp"
+        android:background="#e6e7e8"
+        android:gravity="center"
+        android:text="BAJAJ"
+        android:textColor="#58595b"
+        android:textStyle="bold"
+        android:textSize="18dp"></iit.iitrc.rahil.cognizance_2016.LatoHeading>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp" >
+    <ImageView
+        android:id="@+id/sponsorimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+</LinearLayout>

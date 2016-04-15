@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.rahil.cognizance_2016.Tab1">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/common_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="no notifications"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/nonotif"
+        android:visibility="gone"
+        android:gravity="center"/>
+    <ListView
+        android:id="@+id/notiflist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:text="Please wait for the panelist to load...."
+        />
+</FrameLayout>

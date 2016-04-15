@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@mipmap/common_background"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv1"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/event_pic1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/dic"
+                    />
+
+                <iit.iitrc.rahil.cognizance_2016.LatoHeading
+                    android:id="@+id/event_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Envisaging E-India"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#58595b"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv2"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/event_pic2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/aim"
+                android:layout_marginRight="20dp"
+                />
+
+            <iit.iitrc.rahil.cognizance_2016.LatoHeading
+                android:id="@+id/event_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Aim Inclusion"
+                android:layout_marginLeft="30dp"
+                android:textColor="#58595b"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv3"
+        android:layout_width="300dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_height="140dp"
+        android:layout_margin="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/event_pic3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+android:background="@mipmap/ttft"
+                />
+
+            <iit.iitrc.rahil.cognizance_2016.LatoHeading
+                android:id="@+id/event_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Voicing Appetite"
+                android:layout_marginLeft="20dp"
+                android:textColor="#58595b"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
